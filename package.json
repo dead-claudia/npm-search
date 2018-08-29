@@ -1,0 +1,20 @@
+{
+  "name": "npm-search",
+  "version": "0.0.0",
+  "description": "A really fancy module I just created!",
+  "main": "npm-search.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "bin": "npm-search.js",
+  "author": "Isiah Meadows",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-isiahmeadows": "^0.1.8"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "libnpmsearch": "^1.0.0"
+  }
+}

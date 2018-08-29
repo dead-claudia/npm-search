@@ -1,0 +1,11 @@
+root: true
+plugins:
+    - react
+extends:
+    - isiahmeadows/node-4
+    - isiahmeadows/es6
+parserOptions:
+    ecmaVersion: 2018
+    sourceType: script
+    ecmaFeatures:
+        impliedStrict: false
